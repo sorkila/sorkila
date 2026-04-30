@@ -1,6 +1,6 @@
 # Erik Nielsen
 
-Designer and AI tinkerer in Stockholm.
+Designer and builder at [Simployer](https://simployer.com). AI tinkerer in Stockholm.
 
 ## Currently building
 
