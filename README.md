@@ -9,5 +9,6 @@ Designer and AI tinkerer in Stockholm.
 - [**Demokaze**](https://demokaze.com): AI-generated demo videos from a website URL in ~90 seconds
 - [**Velm**](https://getvelm.com): iOS app to help quit nicotine pouches without resetting progress on slips
 - [**Pendla**](https://www.playpendla.com): drive real Stockholm transit routes; you control the brakes
+- [**Dela**](https://playdela.com): iOS app where you drag to cut to divide things — no ads, no logins
 
 [sorkila.com](https://sorkila.com)
