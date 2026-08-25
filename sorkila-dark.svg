@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="620" height="188" viewBox="0 0 620 188" role="img" aria-label="sorkila. designer and ai tinkerer, stockholm">
+<svg xmlns="http://www.w3.org/2000/svg" width="620" height="188" viewBox="0 0 620 188" role="img" aria-label="sorkila. design and engineering, stockholm">
 <style>
   text { font-family: ui-monospace, "SF Mono", Menlo, Consolas, "DejaVu Sans Mono", "Liberation Mono", monospace; font-size: 18.5px; }
   .f { fill: url(#sheen); }
@@ -26,7 +26,7 @@
   </clipPath>
   <clipPath id="type">
     <rect x="24" y="150" width="0" height="24">
-      <animate attributeName="width" values="0.0;8.3;16.6;24.9;33.2;41.5;49.8;58.1;66.4;74.7;83.0;91.3;99.6;107.9;116.2;124.5;132.8;141.1;149.4;157.7;166.0;174.3;182.6;190.9;199.2;207.5;215.8;224.1;232.4;240.7;249.0;257.3;265.6;273.9;282.2;290.5" keyTimes="0.0;0.0267;0.0535;0.0802;0.107;0.1337;0.1604;0.1872;0.2139;0.2567;0.2834;0.3102;0.3369;0.3797;0.4064;0.4332;0.4759;0.5027;0.5294;0.5561;0.5829;0.6096;0.6364;0.6631;0.6898;0.7166;0.7594;0.7861;0.8128;0.8396;0.8663;0.893;0.9198;0.9465;0.9733;1.0" calcMode="discrete"
+      <animate attributeName="width" values="0.0;8.3;16.6;24.9;33.2;41.5;49.8;58.1;66.4;74.7;83.0;91.3;99.6;107.9;116.2;124.5;132.8;141.1;149.4;157.7;166.0;174.3;182.6;190.9;199.2;207.5;215.8;224.1;232.4;240.7;249.0;257.3;265.6;273.9" keyTimes="0.0;0.0287;0.0575;0.0862;0.1149;0.1437;0.1724;0.2184;0.2471;0.2759;0.3046;0.3506;0.3793;0.408;0.4368;0.4655;0.4943;0.523;0.5517;0.5805;0.6092;0.6379;0.6667;0.6954;0.7414;0.7701;0.7989;0.8276;0.8563;0.8851;0.9138;0.9425;0.9713;1.0" calcMode="discrete"
         begin="1.15s" dur="1.6s" fill="freeze"/>
     </rect>
   </clipPath>
@@ -42,12 +42,12 @@
 </rect>
 
 <g clip-path="url(#type)">
-  <text class="tag" x="24" y="166" textLength="290" lengthAdjust="spacingAndGlyphs" xml:space="preserve">designer and ai tinkerer, stockholm</text>
+  <text class="tag" x="24" y="166" textLength="274" lengthAdjust="spacingAndGlyphs" xml:space="preserve">design and engineering, stockholm</text>
 </g>
 <!-- block cursor: rides the typing, then blinks -->
 <rect x="24" y="153" width="7.3" height="15" fill="#c19a49" opacity="0">
   <animate attributeName="opacity" from="0" to="0.85" begin="0.8999999999999999s" dur="0.2s" fill="freeze"/>
-  <animate attributeName="x" values="24.0;32.3;40.6;48.9;57.2;65.5;73.8;82.1;90.4;98.7;107.0;115.3;123.6;131.9;140.2;148.5;156.8;165.1;173.4;181.7;190.0;198.3;206.6;214.9;223.2;231.5;239.8;248.1;256.4;264.7;273.0;281.3;289.6;297.9;306.2;314.5" keyTimes="0.0;0.0267;0.0535;0.0802;0.107;0.1337;0.1604;0.1872;0.2139;0.2567;0.2834;0.3102;0.3369;0.3797;0.4064;0.4332;0.4759;0.5027;0.5294;0.5561;0.5829;0.6096;0.6364;0.6631;0.6898;0.7166;0.7594;0.7861;0.8128;0.8396;0.8663;0.893;0.9198;0.9465;0.9733;1.0" calcMode="discrete" begin="1.15s" dur="1.6s" fill="freeze"/>
+  <animate attributeName="x" values="24.0;32.3;40.6;48.9;57.2;65.5;73.8;82.1;90.4;98.7;107.0;115.3;123.6;131.9;140.2;148.5;156.8;165.1;173.4;181.7;190.0;198.3;206.6;214.9;223.2;231.5;239.8;248.1;256.4;264.7;273.0;281.3;289.6;297.9" keyTimes="0.0;0.0287;0.0575;0.0862;0.1149;0.1437;0.1724;0.2184;0.2471;0.2759;0.3046;0.3506;0.3793;0.408;0.4368;0.4655;0.4943;0.523;0.5517;0.5805;0.6092;0.6379;0.6667;0.6954;0.7414;0.7701;0.7989;0.8276;0.8563;0.8851;0.9138;0.9425;0.9713;1.0" calcMode="discrete" begin="1.15s" dur="1.6s" fill="freeze"/>
   <animate attributeName="opacity" values="0.85;0.85;0;0" keyTimes="0;0.5;0.5;1" begin="3.15s" dur="1.06s" repeatCount="indefinite"/>
 </rect>
 </svg>
