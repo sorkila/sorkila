@@ -1,4 +1,7 @@
-# Erik Nielsen
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="sorkila-dark.svg">
+  <img alt="sorkila. designer and ai tinkerer, stockholm" src="sorkila-light.svg" width="620">
+</picture>
 
 Designer and AI tinkerer in Stockholm.
 
