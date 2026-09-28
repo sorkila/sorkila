@@ -8,7 +8,7 @@ borrows from; its CLAUDE.md has the full story.
 
 - `README.md` — the profile. "The signature" (chosen 2026-09-11 from nine
   directions, the brief was "even more clean and simple"): the site's hero
-  as an image, one centered line of five product links separated by middle
+  as an image, one centered line of six product links separated by middle
   dots, then sorkila.com. No heading, no bio sentence, no bullets. The
   sidebar already says the name and the handle; the README adds only the
   typeface and the products. Keep it this small.
