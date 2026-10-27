@@ -7,7 +7,18 @@ The shirt is the record that came out, not a tour announcement.
 Internal only: designers and engineers who get the reference. The logo may
 be unreadable. Everything else must not be.
 
-Erik renders in Grok Imagine. Claude is the AD. This folder is the handoff.
+Claude renders in Grok Imagine from the Mac (`render.py`, headless grok CLI)
+and is the AD. This folder is the handoff.
+
+**2026-10-27, after three rounds: GJENFØDT IS THE BAND** (Erik: "keep
+Gjenfødt and Gjenreist as alternatives but render Gjenfødt on all
+concepts"), Sólhvarf is the record, Gjenreist the one alternative name
+kept. `render.py` with `BAND=gjenfodt` swaps the words in any prompt and
+files the result as `renders/<concept>-g/`. The picking board is a private
+claude.ai artifact (https://claude.ai/artifact/96zkHkgeyd8icgKcKqobY3,
+66 renders, yes/maybe/no + a note each, saved in the artifact's own store;
+read back with the ArtifactData tool, collection `picks`). Its item list
+and AD notes are `picks-board.json`.
 
 ## Files
 

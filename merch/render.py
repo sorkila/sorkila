@@ -24,6 +24,20 @@ def fold(s):
     return ''.join(c for c in unicodedata.normalize('NFKD', s) if not unicodedata.combining(c)).lower()
 
 
+NAMES = ['SÓLHVARF', 'MIDVINTER', 'ELDSJÄL', 'ASKEGRAV', 'VÅRDKASE', 'GJENREIST', 'NEDBRENT', 'ÅTERFÖDD', 'NOLLSTÄLLD', 'ROTVÄLTA', 'ENDRBORINN']
+
+
+def band(text):
+    """BAND=gjenfodt: Gjenfødt is the band on every concept, Sólhvarf the record."""
+    if os.environ.get('BAND') != 'gjenfodt':
+        return text
+    for a, b in (('GJENFØDT', '\0'), ('Gjenfødt', '\1'), ('gjenfødt', '\2')):
+        text = text.replace(a, b)
+    for n in NAMES:
+        text = text.replace(n, 'GJENFØDT').replace(n.title(), 'Gjenfødt').replace(n.lower(), 'gjenfødt')
+    return text.replace('\0', 'SÓLHVARF').replace('\1', 'Sólhvarf').replace('\2', 'sólhvarf')
+
+
 def prompt_for(concept, kind):
     md = open(os.path.join(HERE, os.environ.get('PROMPTS', 'prompts.md')), encoding='utf-8').read()
     for m in re.finditer(r'^## (.+?)\n(.*?)(?=^## |\Z)', md, re.S | re.M):
@@ -65,6 +79,9 @@ def main(a):
     concept, kind = fold(a[0]), a[1]
     n = int(a[2]) if len(a) > 2 else 1
     text, kind = prompt_for(concept, kind)
+    text = band(text)
+    if os.environ.get('BAND') == 'gjenfodt':
+        concept += '-g'
     for i in range(n):
         out = os.path.join(HERE, 'renders', concept, '%s-%s.jpg' % (kind, time.strftime('%H%M%S')))
         print(render(text, out, RATIO[kind]), flush=True)
