@@ -17,8 +17,15 @@ kept. `render.py` with `BAND=gjenfodt` swaps the words in any prompt and
 files the result as `renders/<concept>-g/`. The picking board is a private
 claude.ai artifact (https://claude.ai/artifact/96zkHkgeyd8icgKcKqobY3,
 66 renders, yes/maybe/no + a note each, saved in the artifact's own store;
-read back with the ArtifactData tool, collection `picks`). Its item list
-and AD notes are `picks-board.json`.
+read back with the ArtifactData tool, collection `picks`). Its item list,
+AD notes and the chosen render per concept are `picks-board.py` and
+`picks-chosen.json`. NIGHT OF 2026-10-27 ("go deep, quality is paramount,
+all night"): `RESEARCH.md` (Eddas, Kittelsen, Munch, Darkthrone, Szpajdel,
+the mørketid words, Oslo sun angles, discharge print craft, with sources),
+`angles6.md` (24 research-rooted concepts), `angles7.md` (22: engineering
+life, folklore, objects, type, strange), `angles8.md` (15 of Grok 4.7's 20
+from the same brief, raw answer in `grok-sparring-2026-10-27.md`). Every
+concept rendered twice, the better kept. 133 concepts on the board.
 
 ## Files
 

@@ -1,5 +1,7 @@
 # concept id -> (group, name, note). Chosen file per id in PICK (index into sorted files of the -g folder, or a filename); default newest.
 PICK = {
+ 'mergeconflict':1,'oncall':0,'tokensheet':1,'semver':1,'statuspage':1,'nokken':0,'hulder':0,'arbeider':0,'baldishol':0,'ordbok':0,'telegram':0,'turistveg':0,'fyrstikk':0,'skismurning':1,'kofte':0,'masterreel':0,'exlibris':1,'rmrf':0,'stickers':0,'frostrose':1,'solhund':0,'dagslys':0,
+ 'primstav':0,'talg':1,'oppgjor':0,'refleks':0,'billett':0,'kalenderlys':0,'versal':0,'nit':0,'migration':0,'lysbue':0,'multe':0,'minutt':0,'katalog':0,'helnote':1,'varme':0,
  'solhvarf':1,'monument':0,'nightdrive':1,'mothtech':0,'gjenreist':1,'midvinter':0,'giantsun':1,'doomsleeve':1,'engraving':0,
  'militia-ring':0,'scrawl-figure':0,'tour79':1,'conan':1,'lightning':1,'plague':2,'tarot':0,'urnes':1,'topo':1,
  'soldotter':0,'gronn':1,'liv':0,'soriamoria':0,'munch':0,'hunger':1,'solsnu':0,'blaatimen':0,'soldagen':0,'analemma':0,'solbane':0,
@@ -7,6 +9,53 @@ PICK = {
  'sumi':0,'nouveau-logo':0,'juleol':0,
 }
 G = [
+("Engineering life, literal", "The night pass. Tokens, merges, migrations, on-call, the status page, the pull request.", [
+ ('mergeconflict',"The merge conflict","Five lines of monospace: HEAD mørketid in oxblood, the rule, solverv and gjenfødt in gold. Nothing else. The shirt every engineer reads in one second."),
+ ('oncall',"04:12","A pager on the chest reading INCIDENT RESOLVED 04:12, and on the back the window, the first light, the closed laptop. Natten før lansering."),
+ ('tokensheet',"The token sheet","Forty empty swatches named bone, ink, line, space, radius, and one filled gold: sol.500. The spec and the picture are the same object."),
+ ('semver',"Breaking changes","v2.0.0 BREAKING CHANGES on the chest, a tour-date back of versions and months from Mørketid to Solverv."),
+ ('statuspage',"All systems operational","Eight services, seven bone dots and one gold: sun. 99.98 % over 90 days."),
+ ('nit',"Nit","A code review printed plain: author adds the sun, reviewer nits that it reads as a wheel, disc, rays up only, lgtm. Grok's idea, and the best joke on the board."),
+ ('migration',"IrreversibleMigration","up() sets the sun as a disc with rays up; down() throws IrreversibleMigration. The real exception for a change that cannot be undone."),
+ ('rmrf',"The command","rm -rf legacy/ on the chest; checkout, commit, push --force on the back, then the sun."),
+ ('stickers',"The laptop","Ten stickers on a lid: the thorn-ring logo, a gold disc, Mørketid, the monospace line, v2.0.0, SMP-001. The merch that costs nothing."),
+]),
+("Folklore and history", "Nøkken, Huldra, the labour poster, the Baldishol tapestry, the primstav, the tallow drops, the Lofoten settlement slip, the arc furnace.", [
+ ('nokken',"Nøkken","A black tarn at night in Kittelsen's watercolour, water lilies, and in the water the reflection of a sun that is not in the sky, with two eyes. The strangest picture here, and the most Norwegian."),
+ ('hulder',"Huldra","A woman walking into the birches with a cow's tail under her hem, the sun under her arm like a basket. Fine 1890s pen."),
+ ('arbeider',"Alt skal skrives om","A 1930s labour poster: the worker with the hammer, the sun behind him, flat bone, oxblood and gold."),
+ ('baldishol',"The tapestry","After the Baldishol tapestry: arcades, a figure holding up the sun, a rider, birds, the name woven along the top. Worn wool."),
+ ('primstav',"Primstav","The old wooden almanac stick, winter edge and summer edge, the solstice an inlaid gold disc between them. Grok's idea: the record as a stick."),
+ ('talg',"Three drops of tallow","Østenfor sol og vestenfor måne: the plot turns on three tallow drops on a white shirt. This is that shirt, the drops in oxblood. Grok's."),
+ ('oppgjor',"The settlement slip","Lofoten crews were paid in shares when the winter fishery ended and the light came back. The slip for the boat Gjenfødt, from Mørketid to Solverv. Grok's."),
+ ('lysbue',"Lysbue, 1903","The Birkeland-Eyde furnace flattened an electric arc into a disc of flame to pull nitrogen from the air. The industrial sun, seen straight on, a museum label under it. Grok's, and the most beautiful render of the night."),
+ ('katalog',"K.26.1","A reconstructed sun disc in a museum case, the accession label speaking in the collection's voice: rekonstruert solskive, MMXXVI. Grok's."),
+]),
+("Objects that are not a shirt", "What else the record can be.", [
+ ('kofte',"The kofte","A Setesdal-style sweater with the name and a half sun knitted in bone and gold. The one that will actually be worn in December."),
+ ('refleks',"Refleks","Through mørketid you are invisible unless you wear a disc that gives the light back. A brass reflector on a cord. Grok's."),
+ ('kalenderlys',"Kalenderlys","A winter candle notched through the dark, the last notch Solverv, the sun on the wax. Grok's."),
+ ('masterreel',"The master tape","A studio tape box: ARTIST GJENFØDT, TITLE SÓLHVARF, 15 ips, 21.12.26, MASTER do not erase in marker."),
+ ('fyrstikk',"Matchbox","A 1950s matchbox label, sun over fjord in an oval, Sikkerhets-fyrstikker, 40 stk."),
+ ('skismurning',"Wax tin","A ski-wax tin lid: sun over the ridge, Solverv, −10° til 0°."),
+ ('billett',"The ticket","A paper railway fare from Mørketid to Solverv, RETUR stamped over and over. Grok's."),
+ ('turistveg',"The road sign","A brown tourist-route sign in the Norwegian road typeface: Solverv 21, Gjenfødt, an arrow."),
+ ('varme',"Varme","Thermochromic gold: the disc is not on the cold shirt and surfaces where a hand has warmed it. Kald usynlig, varm skive. Grok's; needs a real thermochromic printer."),
+]),
+("Typographic only", "No picture at all.", [
+ ('ordbok',"The dictionary entry","gjen|født, adj., av gjen- og fødd: 1 født på ny; 2 bygd opp igjen fra grunnen. The gold disc is the entry mark."),
+ ('versal',"Versal","One huge G with the gold disc seated in its counter, the rest of the name beside it. Grok's."),
+ ('telegram',"The telegram","SOLA SNUR STOPP ALT SKAL SKRIVES OM STOPP GJENFØDT STOPP, pasted strips on a Telegrafverket form, 21 12 26."),
+ ('exlibris',"Ex libris","A copperplate bookplate: the sun rising out of an open book."),
+ ('minutt',"21 minutter","North of the circle the first day's sun lasts minutes. Oppgang 11.41, nedgang 12.02. That day's forecast and nothing else. Grok's."),
+ ('helnote',"Helnote","A whole note is already a disc: one bar of engraved choral music where that notehead is the sun. Grok's."),
+]),
+("Strange and beautiful", "Frost, sun dogs, the day in one bar, a cloudberry.", [
+ ('frostrose',"Frost on the glass","Frost flowers on a window from inside, the low sun behind, the name scraped into the ice with a finger. A photograph for the page, or a print."),
+ ('solhund',"Sun dogs","A parhelion diagram: the sun on the horizon, two false suns beside it, the 22° halo dashed above. Finnmark, januar."),
+ ('dagslys',"The day in one bar","Every hour of 21 December in Oslo as a colour bar: black, deep blue, a short gold stretch, blue, black. 09:18 to 15:12. 6 t 31 min."),
+ ('multe',"Multe","A botanical plate: an unripe cloudberry, still oxblood, under a gold sun. In the north you wait. Grok's."),
+]),
 ("From the Eddas", "The rebirth is already written. Vafþrúðnismál 47: the sun bears a daughter before the wolf takes her. Völuspá 59: the earth rises green a second time. Vafþrúðnismál 45: the two who hid in the wood and came out into the first dawn.", [
  ('soldotter',"Sól's daughter","The wolf with the old disc in its jaws, the new sun rising above. The runes either side are placeholder; the brief is the whole record in one picture."),
  ('gronn',"The earth rises green","Bold linocut: the island breaking the surface, the waterfall, the eagle with its fish, the sun. Three inks: bone, green, gold."),
