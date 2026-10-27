@@ -28,11 +28,15 @@ NAMES = ['SÓLHVARF', 'MIDVINTER', 'ELDSJÄL', 'ASKEGRAV', 'VÅRDKASE', 'GJENREI
 
 
 def band(text):
-    """BAND=gjenfodt: Gjenfødt is the band on every concept, Sólhvarf the record."""
+    """BAND=gjenfodt: Gjenfødt is the band on every concept. Where a prompt
+    already carries both words (logo + record), the record becomes Sólhvarf;
+    where it carries only Gjenfødt, it stays."""
     if os.environ.get('BAND') != 'gjenfodt':
         return text
-    for a, b in (('GJENFØDT', '\0'), ('Gjenfødt', '\1'), ('gjenfødt', '\2')):
-        text = text.replace(a, b)
+    both = 'GJENFØDT' in text and 'SÓLHVARF' in text
+    if both:
+        for a, b in (('GJENFØDT', '\0'), ('Gjenfødt', '\1'), ('gjenfødt', '\2')):
+            text = text.replace(a, b)
     for n in NAMES:
         text = text.replace(n, 'GJENFØDT').replace(n.title(), 'Gjenfødt').replace(n.lower(), 'gjenfødt')
     return text.replace('\0', 'SÓLHVARF').replace('\1', 'Sólhvarf').replace('\2', 'sólhvarf')
