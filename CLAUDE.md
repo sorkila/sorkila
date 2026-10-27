@@ -71,3 +71,12 @@ site: short sentences, no em dashes, no semicolons, wry not jokey.
 - 2026-08-25: figlet "ANSI Shadow" wordmark redrawn as SVG geometry, typed
   tagline, looping foil sheen. Replaced 2026-09-11 because it read as a
   terminal, not as the site.
+
+## Merch (side project, `merch/`)
+
+Sólhvarf, the rebirth shirt for Simployer's product and tech team. Not
+part of the profile. `merch/README.md` is the handoff: lore, rules,
+palette, the nine concepts, what Erik still has to supply, the Grok
+workflow. `merch/board.html` is the concept board, `merch/prompts.md` the
+prompts (generated, see the README). Same copy voice as the site. The sun
+is a disc, never a wheel.
